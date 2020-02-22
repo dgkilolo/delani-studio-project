@@ -11,6 +11,9 @@
 }
 #services {
   background-image: url(../images/background-22.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
 }
 #contact {
   background-image: url(../images/background-33.jpg);

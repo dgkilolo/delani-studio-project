@@ -1,0 +1,14 @@
+.container {
+  text-align: center;
+  background-color: blanchedalmond;
+}
+#id {
+  background-image: url(../images/background-11.jpg);
+  background-size: cover;
+}
+#services {
+  background-image: url(../images/background-22.jpg);
+}
+#contact {
+  background-image: url(../images/background-33.jpg);
+}

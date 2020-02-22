@@ -18,3 +18,9 @@
 #contact {
   background-image: url(../images/background-33.jpg);
 }
+.col-dimensions {
+  border: solid white 2px;
+  padding: 30px;
+  width:auto;
+  height: 200px;
+}

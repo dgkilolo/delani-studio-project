@@ -17,6 +17,9 @@
 }
 #contact {
   background-image: url(../images/background-33.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
 }
 .col-dimensions {
   border: solid white 2px;
@@ -24,3 +27,15 @@
   width:300px;
   height: 245px;
 }
+#feedback {
+  background: transparent;
+}
+.form-control {
+  background: transparent;
+}
+.form-control::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+  

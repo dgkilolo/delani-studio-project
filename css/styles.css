@@ -1,6 +1,9 @@
 .container-fluid {
   text-align: center;
 }
+.p1-showing {
+  display: none;
+}
 #welcome {
   background-image: url(../images/background-11.jpg);
   background-position: center;
@@ -27,11 +30,9 @@
   width:300px;
   height: 245px;
 }
-#feedback {
-  background: transparent;
-}
 .form-control {
   background: transparent;
+  color: black;
 }
 .form-control::placeholder {
   color: white;

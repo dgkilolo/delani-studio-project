@@ -1,10 +1,13 @@
 .container {
   text-align: center;
-  background-color: blanchedalmond;
 }
-#id {
+#welcome {
   background-image: url(../images/background-11.jpg);
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  
 }
 #services {
   background-image: url(../images/background-22.jpg);

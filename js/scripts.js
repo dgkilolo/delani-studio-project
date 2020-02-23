@@ -49,9 +49,7 @@ $(document).ready(function() {
   $('#port8').hover(function() {
     $('.port8').toggle()
   });
-
-  
-  
+ 
 });
 
 function feedback() {

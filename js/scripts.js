@@ -23,6 +23,8 @@ $(document).ready(function() {
     $('.p3-showing').hide();
     $('#img3').show();
   });
+
+  
   $('#port1').hover(function() {
     $('.port1').toggle()
   });

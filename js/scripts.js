@@ -56,6 +56,13 @@ $(document).ready(function() {
 
 function feedback() {
   var name = document.getElementById('name').value
-  alert("Thank you " +name+ ", we have received you message.")
+  var message = document.getElementById('message').value
   
+  if (name == "") {
+    alert("You have not entered your name.")
+  } else if (message == "") {
+    alert('You have not entered anything into the dialog box.')
+  } else   {
+    alert("Thank you " +name+ ", we have received you message.")
+  }
 }

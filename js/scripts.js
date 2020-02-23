@@ -24,7 +24,6 @@ $(document).ready(function() {
     $('#img3').show();
   });
 
-
   $('#port1').hover(function() {
     $('.port1').toggle()
   });
@@ -48,10 +47,8 @@ $(document).ready(function() {
   });
   $('#port8').hover(function() {
     $('.port8').toggle()
-  });
- 
+  }); 
 });
-
 function feedback() {
   var name = document.getElementById('name').value
   var message = document.getElementById('message').value

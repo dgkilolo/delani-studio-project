@@ -23,8 +23,12 @@ $(document).ready(function() {
     $('.p3-showing').hide();
     $('#img3').show();
   });
-  $('#test').hover(function() {
+  $('#port1').hover(function() {
     $('.port1').toggle()
   });
+  $('#port2, #port3').hover(function() {
+    $('.port2, .port3').toggle()
+  });
+
 
 });

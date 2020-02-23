@@ -26,8 +26,14 @@ $(document).ready(function() {
   $('#port1').hover(function() {
     $('.port1').toggle()
   });
-  $('#port2, #port3').hover(function() {
-    $('.port2, .port3').toggle()
+  $('#port2').hover(function() {
+    $('.port2').toggle()
+  });
+  $('#port3').hover(function() {
+    $('.port3').toggle()
+  });
+  $('#port4').hover(function() {
+    $('.port4').toggle()
   });
 
 

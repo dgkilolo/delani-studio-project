@@ -38,7 +38,14 @@ $(document).ready(function() {
   $('#port5').hover(function() {
     $('.port5').toggle()
   });
-
-
-
+  $('#port6').hover(function() {
+    $('.port6').toggle()
+  });
+  $('#port7').hover(function() {
+    $('.port7').toggle()
+  });
+  $('#port8').hover(function() {
+    $('.port8').toggle()
+  });
+  
 });

@@ -25,28 +25,28 @@ $(document).ready(function() {
   });
 
   $('#port1').hover(function() {
-    $('.port1').toggle()
+    $('.port1').slideToggle()
   });
   $('#port2').hover(function() {
-    $('.port2').toggle()
+    $('.port2').slideToggle()
   });
   $('#port3').hover(function() {
-    $('.port3').toggle()
+    $('.port3').slideToggle()
   });
   $('#port4').hover(function() {
-    $('.port4').toggle()
+    $('.port4').slideToggle()
   });
   $('#port5').hover(function() {
-    $('.port5').toggle()
+    $('.port5').slideToggle()
   });
   $('#port6').hover(function() {
-    $('.port6').toggle()
+    $('.port6').slideToggle()
   });
   $('#port7').hover(function() {
-    $('.port7').toggle()
+    $('.port7').slideToggle()
   });
   $('#port8').hover(function() {
-    $('.port8').toggle()
+    $('.port8').slideToggle()
   }); 
 });
 function feedback() {

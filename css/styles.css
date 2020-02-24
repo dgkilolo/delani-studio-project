@@ -1,5 +1,6 @@
 .container-fluid {
   text-align: center;
+  font-family: 'Simonetta', sans-serif;
 }
 .p1-showing, .p2-showing, .p3-showing {
   display: none;
@@ -41,7 +42,7 @@
 .port1, .port2, .port3, .port4, .port5, .port6, .port7, .port8 {
   display: none;
   background-color: white;
-  opacity: 0.5;
+  opacity: .5;
   font-size: 40px;
   position: absolute;
   color: black;
